@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Light of God",
+    "speaker": "Rev. Kayode Oyegoke",
+    "date": "2024_11_10",
+    "duration": "2:45:30",
+    "category": "OBED",
+    "description": "A powerful message about walking in the light of God's presence and truth.",
+    "speakerImage": "/images/rev-kayode-oyegoke.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/2024_11_10%20-%20SOGAG%20Day%202%20-%20Rev.%20Kayode%20Oyegoke.mp3"
+  },
+  {
+    "id": 2,
+    "title": "Entrance into Everlasting life by beholding the lamb",
+    "speaker": "Rev. Helen Oyegoke",
+    "date": "2024_11_11",
+    "duration": "1:38:15",
+    "category": "Converge",
+    "description": "Understanding how beholding the Lamb of God transforms us and grants eternal life.",
+    "speakerImage": "/images/rev-helen-oyegoke.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/2025_06_19%20-%20(LUA25%20D3%20AM)%20-%20Entrance%20into%20Everlasting%20Life%20by%20Beholding%20the%20Lamb%20by%20Rev%20Helen%20Oyegoke.mp3"
+  },
+  {
+    "id": 3,
+    "title": "The Race To Becoming A Godly & Everlasting Tree",
+    "speaker": "Pastor Tayo Fasan",
+    "date": "2024_11_12",
+    "duration": "1:42:20",
+    "category": "Daystar Arising",
+    "description": "Exploring the spiritual journey of growth and maturity in Christ.",
+    "speakerImage": "/images/pastor-tayo-fasan.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/05_09_2025-DSA-The%20Race%20To%20Becoming%20A%20Godly%20%26%20Everlasting%20Tree%20part%205-Pastor%20Tayo%20Fasan.mp3"
+  },
+  {
+    "id": 4,
+    "title": "Obedience to the heavenly calling",
+    "speaker": "Pastor Tayo Fasan",
+    "date": "2024_11_12",
+    "duration": "1:42:20",
+    "category": "OBED",
+    "description": "Understanding and responding to God's call with faithful obedience.",
+    "speakerImage": "/images/pastor-tayo-fasan.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/05_09_2025-DSA-The%20Race%20To%20Becoming%20A%20Godly%20%26%20Everlasting%20Tree%20part%205-Pastor%20Tayo%20Fasan.mp3"
+  },
+  {
+    "id": 5,
+    "title": "Walking in Divine Light",
+    "speaker": "Pastor Tayo Fasan",
+    "date": "2024_11_05",
+    "duration": "2:10:30",
+    "category": "Daystar Arising",
+    "description": "Understanding how to walk in God's divine light daily.",
+    "speakerImage": "/images/pastor-tayo-fasan.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/05_09_2025-DSA-The%20Race%20To%20Becoming%20A%20Godly%20%26%20Everlasting%20Tree%20part%205-Pastor%20Tayo%20Fasan.mp3"
+  },
+  {
+    "id": 6,
+    "title": "Healing and Restoration",
+    "speaker": "Rev. Helen Oyegoke",
+    "date": "2024_10_28",
+    "duration": "1:45:20",
+    "category": "Healing Light",
+    "description": "God's power to heal and restore broken lives.",
+    "speakerImage": "/images/rev-helen-oyegoke.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/2025_06_19%20-%20(LUA25%20D3%20AM)%20-%20Entrance%20into%20Everlasting%20Life%20by%20Beholding%20the%20Lamb%20by%20Rev%20Helen%20Oyegoke.mp3"
+  },
+  {
+    "id": 7,
+    "title": "The Power of Faith",
+    "speaker": "Rev. Kayode Oyegoke",
+    "date": "2024_10_25",
+    "duration": "1:55:10",
+    "category": "Rooted",
+    "description": "Understanding the transformative power of faith in our daily walk with God.",
+    "speakerImage": "/images/rev-kayode-oyegoke.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/2024_11_10%20-%20SOGAG%20Day%202%20-%20Rev.%20Kayode%20Oyegoke.mp3"
+  },
+  {
+    "id": 8,
+    "title": "Light Up America - Day 1",
+    "speaker": "Rev. Kayode Oyegoke",
+    "date": "2024_06_15",
+    "duration": "2:20:45",
+    "category": "Light Up America",
+    "description": "Opening session of the Light Up America conference with powerful insights.",
+    "speakerImage": "/images/rev-kayode-oyegoke.jpg",
+    "audioUrl": "https://egfmusa.b-cdn.net/audios/2024_11_10%20-%20SOGAG%20Day%202%20-%20Rev.%20Kayode%20Oyegoke.mp3"
+  }
+]

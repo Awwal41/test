@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/:path*",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ],
+      "regex": "^/api(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/about-us/pastor-tayo-fasan",
+      "regex": "^/about\\-us/pastor\\-tayo\\-fasan(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us/pastor\\-tayo\\-fasan(?:/)?$"
+    },
+    {
+      "page": "/about-us/regions",
+      "regex": "^/about\\-us/regions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us/regions(?:/)?$"
+    },
+    {
+      "page": "/about-us/rev-helen-oyegoke",
+      "regex": "^/about\\-us/rev\\-helen\\-oyegoke(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us/rev\\-helen\\-oyegoke(?:/)?$"
+    },
+    {
+      "page": "/about-us/rev-kayode-oyegoke",
+      "regex": "^/about\\-us/rev\\-kayode\\-oyegoke(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us/rev\\-kayode\\-oyegoke(?:/)?$"
+    },
+    {
+      "page": "/about-us/who-we-are",
+      "regex": "^/about\\-us/who\\-we\\-are(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us/who\\-we\\-are(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/meetings",
+      "regex": "^/meetings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings(?:/)?$"
+    },
+    {
+      "page": "/meetings/converge",
+      "regex": "^/meetings/converge(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/converge(?:/)?$"
+    },
+    {
+      "page": "/meetings/daystar-arising",
+      "regex": "^/meetings/daystar\\-arising(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/daystar\\-arising(?:/)?$"
+    },
+    {
+      "page": "/meetings/healing-light",
+      "regex": "^/meetings/healing\\-light(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/healing\\-light(?:/)?$"
+    },
+    {
+      "page": "/meetings/light-up-america",
+      "regex": "^/meetings/light\\-up\\-america(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/light\\-up\\-america(?:/)?$"
+    },
+    {
+      "page": "/meetings/obed",
+      "regex": "^/meetings/obed(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/obed(?:/)?$"
+    },
+    {
+      "page": "/meetings/rooted",
+      "regex": "^/meetings/rooted(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/meetings/rooted(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/resources/articles",
+      "regex": "^/resources/articles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/articles(?:/)?$"
+    },
+    {
+      "page": "/resources/audio",
+      "regex": "^/resources/audio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/audio(?:/)?$"
+    },
+    {
+      "page": "/resources/calendar",
+      "regex": "^/resources/calendar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/calendar(?:/)?$"
+    },
+    {
+      "page": "/resources/gallery",
+      "regex": "^/resources/gallery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/gallery(?:/)?$"
+    },
+    {
+      "page": "/resources/transcripts",
+      "regex": "^/resources/transcripts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/transcripts(?:/)?$"
+    },
+    {
+      "page": "/streaming/audio",
+      "regex": "^/streaming/audio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/streaming/audio(?:/)?$"
+    },
+    {
+      "page": "/streaming/video",
+      "regex": "^/streaming/video(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/streaming/video(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
