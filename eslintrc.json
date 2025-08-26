@@ -1,0 +1,11 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["import"],
+  "rules": {
+    "import/no-unresolved": "error",
+    "no-undef": "error",
+    "import/named": "error",
+    "import/default": "error",
+    "import/namespace": "error"
+  }
+}
