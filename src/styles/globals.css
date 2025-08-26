@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-white: #ffffff;
+  --color-black: rgb(0 0 0);
+  --color-primary: #90651b;
+  --color-secondary: #344054;
+  --color-slate-100: #222222;
+  --color-slate-200: #595959;
+  --color-slate-300: #a0a0a0;
+  --color-slate-400: #d0d5dd;
+}
+
+/* Full-width tabs section */
+.meetings-tabs-section, .meetings-tabs-section .container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: none;
+}
+
+/* Ensure transparent image and video wrappers */
+img.section-image, img.image-section, img.region-map, img.meeting-image, img.slideshow-image, img.hero-image, video.hero-video {
+  background: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Hover effects for section images (leader pages and meeting pages) */
+img.section-image {
+  filter: brightness(0.5);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+img.section-image:hover {
+  filter: brightness(0.8);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Hover effects for ImageSection images (regions page) */
+img.image-section {
+  filter: brightness(0.5);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+img.image-section:hover {
+  filter: brightness(0.8);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Hover effects for region-specific images (if used) */
+img.region-map {
+  filter: brightness(0.5);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+img.region-map:hover {
+  filter: brightness(0.8);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Hover effects for meeting images (region maps, previous behavior) */
+img.meeting-image {
+  filter: brightness(0.5);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+img.meeting-image:hover {
+  filter: brightness(0.8);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Slideshow image transition (retained for compatibility) */
+img.slideshow-image {
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Hero image and video styling */
+img.hero-image, video.hero-video {
+  filter: brightness(0.5);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: filter 0.5s ease, transform 0.5s ease;
+  transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+img.hero-image:hover, video.hero-video:hover {
+  filter: brightness(0.8);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
